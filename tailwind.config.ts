@@ -12,7 +12,7 @@ const config: Config = {
       black: "#000",
       white: "#fff",
       test: "#FF0000",
-      red: "#FF0000",
+      red: "#D1746D",
       yellow: "#E5A42E",
       "beige": {
         light: "#F5F5ED",
