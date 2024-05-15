@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import { inter } from "@/ui/fonts";
 
 export const metadata: Metadata = {
-  title: "Speech Bubbles Stuttering Therapy",
-  description: "Acceptance-First Speech Therapy",
+  title: "Crescendo Performance Consulting",
+  description: "Discover your voice and unlock your potential.",
 };
 
 export default function RootLayout({
