@@ -6,7 +6,7 @@ export default function PageContainer({
   className?: string;
 }) {
   return (
-    <div className={`flex w-full flex-col items-center pt-[64px] sm:pt-[100px] ${className}`}>
+    <div className={`bg-beige-light flex w-full flex-col items-center pt-[64px] sm:pt-[100px] ${className}`}>
       {children}
     </div>
   );
