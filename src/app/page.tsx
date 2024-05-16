@@ -8,31 +8,33 @@ import { PiArrowRightLight } from "react-icons/pi";
 
 export default async function Home() {
   return (
-    <PageContainer >
-      <div className="flex justify-center w-full h-[1000px] bg-[url('/hero-mask.svg')] bg-center">
-        <SectionContainer className="md:pt-32 [&]:items-start">
-          <div className="flex max-w-[480px] flex-col space-y-4 px-2 sm:max-md:px-16 md:space-y-10">
+    <PageContainer className="overflow-x-clip" >
+      <div className="flex justify-center w-full h-[1000px] sm:h-[1200px] md:h-[800px] lg:h-[1200px] bg-[url('/hero-mask.svg')] bg-center">
+        <div className="flex flex-col-reverse items-center sm:items-start md:flex-row w-full h-min max-w-6xl px-4 pt-10 md:pt-[100px] md:space-x-8">
+          <div className="flex flex-col space-y-6 pt-8 sm:pt-0 md:pt-8 sm:px-8 md:px-0 md:space-y-10">
             <div className="">
-              <Heading1 className="[&]:text-beige">Crescendo</Heading1>
-              <Paragraph large className="[&]:text-beige">Performance Consulting</Paragraph>
+              <Heading1 className="text-center sm:text-start [&]:text-beige">Crescendo</Heading1>
+              <Paragraph large className="text-center sm:text-start [&]:text-beige">Performance Consulting</Paragraph>
             </div>
             <div>
-              <Paragraph className="[&]:text-beige">
+              <Paragraph className="text-center sm:text-start [&]:text-beige">
                 Are you an artist struggling with performance anxiety? Overwhelmed by audition preparation? Are you looking to perform more confidently under pressure?
               </Paragraph>
             </div>
-            <div className="flex">
+            <div className="flex justify-center sm:justify-start">
               <Button dark trailingIcon={PiArrowRightLight} href={"/contact"}>I can help</Button>  
             </div>
           </div>
-          <Image
-            className="absolute top-[-56px] left-1/2 transform -translate-x-[120px] pointer-events-none"
-            src="/illy-1.png"
-            alt="Illustration of performer playing guitar"
-            width={1000}
-            height={1000}
-          />
-        </SectionContainer>
+          <div className="max-w-[320px] md:max-w-none md:w-[1420px] pointer-events-none">
+            <Image
+                className="scale-[1.8]"
+                src="/illy-1.png"
+                alt="Illustration of performer playing guitar"
+                width={1000}
+                height={1000}
+            />
+          </div>
+        </div>
       </div>
     </PageContainer>
   );
