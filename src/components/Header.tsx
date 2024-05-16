@@ -25,11 +25,11 @@ export default function Header() {
           href={"/"}
         >
           <Image
-            className={`${isOpen ? "opacity-0" : "opacity-100"} `}
+            className={`${isOpen ? "opacity-0" : "opacity-100"} scale-[0.75] sm:scale-[1]`}
             src="/logo.png"
             alt="Crescendo logo"
-            width={48}
-            height={48}
+            width={56}
+            height={56}
             priority
           />
         </NextLink>
