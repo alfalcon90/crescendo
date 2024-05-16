@@ -1,6 +1,6 @@
 export const footerLinks = [
-  { label: "About", page: "/about" },
   { label: "FAQ", page: "/faq" },
+  { label: "About", page: "/about" },
   { label: "Contact", page: "/contact" },
 ];
 
