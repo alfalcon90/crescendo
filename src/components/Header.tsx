@@ -36,8 +36,8 @@ export default function Header() {
 
         <div
           className={`${
-            isOpen ? "scale-y-100" : "scale-y-0"
-          } bg-green-dark absolute left-0 right-0 top-0 w-full origin-top items-center space-y-8 p-6 pt-14 transition-all sm:relative sm:flex sm:scale-y-100	sm:space-y-0 sm:bg-transparent sm:p-0`}
+            isOpen ? "translate-y-[248px]" : "translate-y-0"
+          } bg-green-dark absolute left-0 right-0 top-[-248px] sm:top-0 z-10 w-full origin-top items-center space-y-8 p-6 pt-14 duration-300 transition-all sm:relative sm:flex sm:scale-y-100	sm:space-y-0 sm:bg-transparent sm:p-0`}
         > 
           <ul className="grow space-y-4 text-center sm:inline sm:space-x-14">
             {headerLinks.map((link) => (
@@ -53,7 +53,7 @@ export default function Header() {
         </div>
 
         <div
-          className={`transition-all sm:hidden ${
+          className={`transition-all sm:hidden z-20 ${
             isOpen ? "rotate-180" : "rotate-0"
           }`}
         >
