@@ -22,7 +22,7 @@ export default function Footer() {
           </ul>
           <NextLink href="/" className="flex justify-center space-x-2">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="Crescendo logo"
               width={48}
               height={48}

@@ -26,7 +26,7 @@ export default function Header() {
         >
           <Image
             className={`${isOpen ? "opacity-0" : "opacity-100"} `}
-            src="/logo.svg"
+            src="/logo.png"
             alt="Crescendo logo"
             width={48}
             height={48}
