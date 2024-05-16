@@ -11,7 +11,7 @@ export default function Paragraph({
     <p
       className={`${
         large
-          ? "text-2xl leading-relaxed"
+          ? "text-lg sm:text-2xl leading-relaxed"
           : "text-base font-medium text-green-dark"
       } ${className}`}
     >
