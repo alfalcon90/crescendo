@@ -18,7 +18,7 @@ export default function Link({
         dark ? "text-beige" : "text-green-dark"
       } ${
         underline ? "underline" : ""
-      } focus:ring-green rounded-sm underline-offset-8 hover:underline px-1 uppercase tracking-wider focus:outline-none focus:ring`}
+      } focus:ring-beige/25 rounded-sm underline-offset-8 hover:underline px-1 uppercase tracking-wider focus:outline-none focus:ring`}
       href={href}
     >
       {children}

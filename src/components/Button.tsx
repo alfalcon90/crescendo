@@ -55,7 +55,7 @@ export default function Button({
 }
 
 const _className = (dark?: boolean, className?: string ): string =>
-  `${dark ? 'text-beige border border-beige hover:bg-beige/25' : 'text-green-dark border border-red hover:bg-beige-dark'}   focus:ring-green flex items-center rounded-full px-5 py-3 uppercase tracking-wider focus:outline-none focus:ring ${className}`;
+  `${dark ? 'text-beige border border-beige hover:bg-beige/25 focus:ring-beige/50' : 'text-green-dark border border-red hover:bg-red/25 focus:ring-red/50'}  flex items-center rounded-full px-5 py-3 uppercase tracking-wider focus:outline-none focus:ring ${className}`;
 
 const _leadingIcon = (
   icon?: IconType,
