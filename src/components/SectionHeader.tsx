@@ -24,7 +24,7 @@ export default function SectionHeader({
       <Overline className="text-red" >{overline}</Overline>
       <div className="flex flex-col items-center space-y-3 sm:space-y-5">
         <Heading2>{title}</Heading2>
-        <Paragraph className="text-green" >{subtitle}</Paragraph>
+        <Paragraph className="[&]:text-green">{subtitle}</Paragraph>
         {href != undefined && <Button href={href}>Learn more</Button>}
       </div>
     </div>
