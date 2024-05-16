@@ -18,7 +18,7 @@ export default function Header() {
   }, [pathname]);
 
   return (
-    <header className="bg-green-dark border border-b-beige absolute flex h-16 w-full justify-center sm:h-[100px]">
+    <header className="bg-green-dark border border-b-beige absolute flex h-[64px] w-full justify-center sm:h-[100px]">
       <div className=" flex max-w-6xl grow items-center justify-between px-2">
         <NextLink
           className="focus:ring-green focus:outline-none focus:ring"
