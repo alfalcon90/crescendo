@@ -1,6 +1,6 @@
 import { playfair } from "../ui/fonts";
 
-export default function Heading1({
+export default function Heading2({
   children,
   className,
 }: {
@@ -8,10 +8,10 @@ export default function Heading1({
   className?: string;
 }) {
   return (
-    <h1
+    <h2
       className={`${playfair.className} ${className} text-green-dark text-4xl sm:text-5xl font-medium [&]:leading-tight`}
     >
       {children}
-    </h1>
+    </h2>
   );
 }
