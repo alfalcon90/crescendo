@@ -4,7 +4,8 @@ import SectionContainer from '@/components/SectionContainer'
 import SectionHeader from '@/components/SectionHeader'
 
 export default function FAQ() {
-  return <PageContainer>
+  return (
+    <PageContainer>
       <SectionContainer className="max-w-4xl space-y-4">
         <SectionHeader
           overline="Help and Support"
@@ -42,5 +43,6 @@ export default function FAQ() {
           <p>Please contact me for my current rates. However, I recognize that cost is often a barrier to seeking performance consultation; as a result, I set aside a limited number of appointments each week to be on a sliding scale (discount). In addition, I’m happy to be flexible on the frequency (or length) of sessions to help fit your budget. </p>
         </Accordion>
       </SectionContainer>
-  </PageContainer>
+    </PageContainer>
+  )
 }

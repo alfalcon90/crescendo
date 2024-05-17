@@ -21,7 +21,7 @@ export default function FeatureItem({
 }) {
   return (
     <div
-      className={`flex w-full justify-center ${className}`}
+      className={`flex w-full justify-center ${className} z-10`}
     >
       <div
         className={`flex w-full max-w-7xl flex-col ${
@@ -39,7 +39,7 @@ export default function FeatureItem({
         </div>
         <div className="flex flex-col space-y-8 w-full lg:w-1/2">
           <div className="flex flex-col space-y-4  ">
-            <Heading3>{title}</Heading3>
+            <Heading3 className="text-center lg:text-start" >{title}</Heading3>
             <Paragraph large>{body}</Paragraph>
           </div>
         </div>
