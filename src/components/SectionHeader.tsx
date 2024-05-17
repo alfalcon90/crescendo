@@ -10,24 +10,28 @@ export default function SectionHeader({
   subtitle,
   className,
   overlineClassName,
+  innerClassName,
   href,
+  dark,
 }: {
   overline: string;
   title: string;
   subtitle?: string;
   className?: string;
   overlineClassName?: string;
+  innerClassName?: string;
   href?: Url;
+  dark?: boolean;
 }) {
   return (
     <div
       className={`flex max-w-xl flex-col items-center text-center space-y-1 sm:space-y-2 ${className}`}
     >
       <Overline className={`${overlineClassName} text-red`}>{overline}</Overline>
-      <div className="flex flex-col items-center space-y-3 sm:space-y-5">
-        <Heading2>{title}</Heading2>
-        <Paragraph className="[&]:text-green">{subtitle}</Paragraph>
-        {href != undefined && <Button href={href}>Learn more</Button>}
+      <div className={`${innerClassName} flex flex-col items-center space-y-3 sm:space-y-5`}>
+        <Heading2 className={dark ? "[&]:text-beige" : "[&]:text-green-dark"} >{title}</Heading2>
+        <Paragraph className={dark ? "[&]:text-beige" : "[&]:text-green"}>{subtitle}</Paragraph>
+        {href != undefined && <Button dark={dark} href={href}>Learn more</Button>}
       </div>
     </div>
   );

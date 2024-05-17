@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe";
 import Button from "@/components/Button";
 import CarouselWrapper from "@/components/CarouselWrapper";
 import FeatureItem from "@/components/FeatureItem";
@@ -89,6 +90,7 @@ export default async function Home() {
           <Testimonial avatar="/avatar-2.png" content="Working with Jason has been the missing piece for my audition preparation. Taking auditions is usually a solo endeavor but having sessions with Jason made me feel supported throughout the audition process. We set goals to help me not get in the way of myself and see the bigger picture of music making. I highly recommend working with Jason!" description="professional cellist" ></Testimonial>
         </CarouselWrapper>
       </SectionContainer>
+      <AboutMe src="/jemmy-1.png" />
     </PageContainer>
   );
 }
