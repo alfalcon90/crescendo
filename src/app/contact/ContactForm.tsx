@@ -26,7 +26,6 @@ export default function ContactForm() {
         className="flex w-full flex-col space-y-3 sm:space-y-6"
         onSubmit={handleSubmit(async (data) => {
           setRes(AsyncValue.loading);
-
           const value = await sendEmail(data);
           setRes(value);
         })}
