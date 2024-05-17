@@ -11,9 +11,9 @@ export default async function sendEmail(data: Inputs): Promise<AsyncValue> {
     mail.setApiKey(process.env.SENDGRID_API_KEY!);
 
     const msg: mail.MailDataRequired = {
-      to: 'albertovil90@gmail.com',
+      to: _email,
       from: { email: _email, name: "Crescendo Performance Consulting" },
-      templateId: "d-1d941a30d3724899a9857e5ee73c9ea5",
+      templateId: "d-b3af8ce6c3c54e099e7ca5c825df77d0",
       dynamicTemplateData: {
         contact_name: data.name,
         contact_email: data.email,
