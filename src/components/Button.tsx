@@ -27,7 +27,7 @@ export default function Button({
   if (type != undefined) {
     return (
       <button
-        className={_className(dark, className)}
+        className={_className(disabled, dark, className)}
         onClick={onClick}
         type={type}
         aria-disabled={disabled}
@@ -41,7 +41,7 @@ export default function Button({
   } else {
     return (
       <Link
-        className={_className(dark, className)}
+        className={_className(disabled, dark, className)}
         href={href ?? {}}
         type={type}
         aria-disabled={disabled}
@@ -54,8 +54,8 @@ export default function Button({
   }
 }
 
-const _className = (dark?: boolean, className?: string ): string =>
-  `${dark ? 'text-beige border border-beige hover:bg-beige/25 focus:ring-beige/50' : 'text-green-dark border border-red hover:bg-red/25 focus:ring-red/50'}  flex items-center rounded-full px-5 py-3 uppercase tracking-wider focus:outline-none focus:ring ${className}`;
+const _className = (disabled?:boolean, dark?: boolean, className?: string ): string => 
+  `${disabled ? "text-beige-dark border-0 bg-beige/50" : `${dark ? 'text-beige border border-beige hover:bg-beige/25 focus:ring-beige/50' : 'text-green-dark border border-red hover:bg-red/25 focus:ring-red/50'}`} flex items-center rounded-full px-5 py-3 uppercase tracking-wider focus:outline-none focus:ring ${className}`;
 
 const _leadingIcon = (
   icon?: IconType,
