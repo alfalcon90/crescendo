@@ -28,7 +28,7 @@ export default function FeatureItem({
           reverse ? "lg:flex-row-reverse" : "lg:flex-row"
         } items-center justify-between sm:space-x-8`}
       >
-        <div className="max-w-[420px] md:max-w-[520px] lg:max-w-none">
+        <div className="max-w-[420px] md:max-w-[520px] p-2 sm:p-0 lg:max-w-none">
           <Image
             className="scale-[1.1]"
             src={src}

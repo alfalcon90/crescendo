@@ -36,13 +36,14 @@ export default async function Home() {
                 alt="Illustration of performer playing guitar"
                 width={1000}
                 height={1000}
+                loading="eager"
             />
           </div>
         </div>
       </div>
-      <SectionContainer className="[&]:mt-[-120px] [&]:sm:mt-[-240px] [&]:md:mt-[-40px] [&]:lg:mt-[-400px]">
+      <SectionContainer className="[&]:mt-[-360px] [&]:sm:mt-[-500px] [&]:md:mt-[-300px] [&]:lg:mt-[-640px]">
         <Image
-          className="absolute scale-[8] -translate-x-[100px] sm:scale-[10] translate-y-[1200px] sm:-translate-x-[220px] pointer-events-none"
+          className=" scale-[8] -translate-x-[100px] sm:scale-[10] translate-y-[1400px] sm:-translate-x-[220px] pointer-events-none"
           src="/stripes.svg"
           alt="Illustration of performer playing guitar"
           width={200}
