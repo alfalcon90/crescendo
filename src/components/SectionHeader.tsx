@@ -8,6 +8,7 @@ export default function SectionHeader({
   overline,
   title,
   subtitle,
+  children,
   className,
   overlineClassName,
   innerClassName,
@@ -17,6 +18,7 @@ export default function SectionHeader({
   overline: string;
   title: string;
   subtitle?: string;
+  children?: React.ReactNode;
   className?: string;
   overlineClassName?: string;
   innerClassName?: string;
@@ -31,6 +33,7 @@ export default function SectionHeader({
       <div className={`${innerClassName} flex flex-col items-center space-y-3 sm:space-y-5`}>
         <Heading2 className={dark ? "[&]:text-beige" : "[&]:text-green-dark"} >{title}</Heading2>
         <Paragraph className={dark ? "[&]:text-beige" : "[&]:text-green"}>{subtitle}</Paragraph>
+        {children}
         {href != undefined && <Button dark={dark} href={href}>Learn more</Button>}
       </div>
     </div>

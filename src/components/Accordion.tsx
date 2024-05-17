@@ -1,10 +1,9 @@
 "use client";
 
-import { TbChevronDown } from "react-icons/tb";
 import Divider from "./Divider";
 import { useState } from "react";
 import Heading4 from "./Heading4";
-import { PiCaretDown, PiCaretDownLight } from "react-icons/pi";
+import { PiCaretDownLight } from "react-icons/pi";
 
 export default function Accordion({
   title,
