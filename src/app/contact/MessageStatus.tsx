@@ -2,11 +2,11 @@ import { AsyncValue } from "../server/asyncValue";
 import { IconType } from "react-icons";
 import React from "react";
 import Spinner from "@/components/Spinner";
-import { PiCheckLight, PiExclamationMarkLight } from "react-icons/pi";
+import { PiCheckLight, PiCloudXLight, PiExclamationMarkLight } from "react-icons/pi";
 
 export default function MessageStatus({ value }: { value: AsyncValue }) {
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center space-y-6">
+    <div className="flex h-full w-full items-center space-x-4">
       {value === AsyncValue.loading ? (
         <Spinner />
       ) : (
@@ -14,7 +14,7 @@ export default function MessageStatus({ value }: { value: AsyncValue }) {
           className={`bg-${_color(value)} rounded-full p-4 text-beige-light`}
         >
           {React.createElement(_icon(value), {
-            className: "h-20 w-20",
+            className: "h-8 w-8",
           })}
         </div>
       )}
@@ -26,7 +26,7 @@ export default function MessageStatus({ value }: { value: AsyncValue }) {
 function _icon(value: AsyncValue): IconType {
   switch (value) {
     case AsyncValue.error:
-      return PiExclamationMarkLight;
+      return PiCloudXLight;
     default:
       return PiCheckLight;
   }
