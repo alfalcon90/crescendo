@@ -1,10 +1,12 @@
 import Button from "@/components/Button";
+import CarouselWrapper from "@/components/CarouselWrapper";
 import FeatureItem from "@/components/FeatureItem";
 import Heading1 from "@/components/Heading1";
 import PageContainer from "@/components/PageContainer";
 import Paragraph from "@/components/Paragraph";
 import SectionContainer from "@/components/SectionContainer";
 import SectionHeader from "@/components/SectionHeader";
+import Testimonial from "@/components/Testimonial";
 import Image from "next/image";
 import { PiArrowRightLight } from "react-icons/pi";
 
@@ -73,6 +75,18 @@ export default async function Home() {
           src="/illy-4.png"
           alt="Abstract illustration of two people talking"
         />
+      </SectionContainer>
+      <SectionContainer className="bg-red">
+        <SectionHeader
+          overline="Hear from other clients"
+          overlineClassName="[&]:text-beige"
+          title="Testimonials"
+          className="px-4"
+        />
+        <CarouselWrapper>
+          <Testimonial avatar="/avatar-1.png" content="Jason has the unique perspective of someone who walks the walk: he is a highly accomplished performer who has spent significant time on introspection and mental training. He has true empathy and compassion for others, and finds a balance between providing structure and clarity while also being your most stalwart supporter. I cannot recommend him highly enough." description="professional clarinetist" ></Testimonial>
+          <Testimonial avatar="/avatar-2.png" content="Working with Jason has been the missing piece for my audition preparation. Taking auditions is usually a solo endeavor but having sessions with Jason made me feel supported throughout the audition process. We set goals to help me not get in the way of myself and see the bigger picture of music making. I highly recommend working with Jason!" description="professional cellist" ></Testimonial>
+        </CarouselWrapper>
       </SectionContainer>
     </PageContainer>
   );
