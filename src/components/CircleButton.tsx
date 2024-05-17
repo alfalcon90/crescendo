@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { IconType } from "react-icons";
 
 export const circleButtonStyle =
-  "sm:hover:bg-beige-dark focus:ring-beige/50 rounded-full p-3 focus:outline-none sm:focus:ring";
+  "sm:hover:bg-beige/75 focus:ring-beige/50 rounded-full p-3 focus:outline-none sm:focus:ring";
 
 export default function CircleButton({
   onClick,
