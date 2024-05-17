@@ -40,7 +40,7 @@ export default async function Home() {
           </div>
         </div>
       </div>
-      <SectionContainer className="[&]:py-0 -translate-y-[72px] sm:-translate-y-[120px] md:translate-y-[72px] lg:-translate-y-[320px]">
+      <SectionContainer className="[&]:mt-[-120px] [&]:sm:mt-[-240px] [&]:md:mt-[-40px] [&]:lg:mt-[-400px]">
         <Image
           className="absolute scale-[8] -translate-x-[100px] sm:scale-[10] translate-y-[1200px] sm:-translate-x-[220px] pointer-events-none"
           src="/stripes.svg"
