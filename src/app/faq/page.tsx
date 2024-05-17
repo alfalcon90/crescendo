@@ -10,14 +10,14 @@ export default function FAQ() {
         <SectionHeader
           overline="Help and Support"
           title="Frequently Asked Questions"
-          subtitle="Find quick and comprehensive answers to common questions and concerns about our performance consulting services."
+          subtitle="Find quick and comprehensive answers to common questions and concerns about my performance consulting services."
         />
         <Accordion title="How can performance psychology help me?">
           <p>Working with a mental performance consultant can benefit your performing ability in many ways. The many topics that I cover with clients include:</p>
           <br/>
           <ul className='list-disc list-inside'>
             <li>performance anxiety</li>
-            <li>confidence and “impostor syndrome”</li>
+            <li>confidence and “Impostor syndrome”</li>
             <li>audition preparation</li>
             <li>practice skills</li>
             <li>motivation</li>

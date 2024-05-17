@@ -58,7 +58,7 @@ export default async function Home() {
         />
         <FeatureItem
           title="Holistic Development"
-          body="As a mental performance consultant, I use evidence-based concepts of performance psychology to help performing artists overcome barriers: performance anxiety, lack of confidence, impostor syndrome, audition preparation, injury recovery, and much more!"
+          body="As a mental performance consultant, I use evidence-based concepts of performance psychology to help performing artists overcome barriers: performance anxiety, lack of confidence, Impostor syndrome, audition preparation, injury recovery, and much more!"
           src="/illy-2.png"
           alt="Abstract illustration of a person"
         />
