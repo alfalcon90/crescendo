@@ -7,8 +7,7 @@ import SectionHeader from "@/components/SectionHeader";
 import VideoCard from "@/components/VideoCard";
 import Image from "next/image";
 import Link from "next/link";
-import { PiImage, PiImageLight, PiLink } from "react-icons/pi";
-import { TbChevronDown, TbLink } from "react-icons/tb";
+import { PiImageLight } from "react-icons/pi";
 
 
 export default function About() {
