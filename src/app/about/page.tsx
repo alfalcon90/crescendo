@@ -12,7 +12,7 @@ import { PiImageLight } from "react-icons/pi";
 
 export default function About() {
   return (
-    <PageContainer>
+    <PageContainer className="overflow-x-clip" >
       <AboutMe showBtn={false} src="/jemmy-2.png" />
       <SectionContainer className="relative max-w-4xl">
         <Heading3 className="w-full">My work as a musician</Heading3>
@@ -48,10 +48,10 @@ export default function About() {
           <br />
           To give you a deeper understanding of my work and my approach to performance psychology, I would recommend listening to a <Link className="underline" href="https://bulletproofmusician.com/jason-shafer-on-healthier-practicing-strengths-based-performing/" >recent interview</Link> I had the pleasure of doing with Dr. Noa Kageyama, who is one of my most respected colleagues in the field of performance psychology. I believe it provides a comprehensive overview of my methodologies and thought processes.
         </Paragraph>
-        <div className="group absolute lg:inline hidden flex flex-col items-center  -bottom-[2px] -right-[56px] hover:animate-bounce">
+        {/* <div className="group absolute lg:inline hidden flex flex-col items-center  -bottom-[2px] -right-[56px] hover:animate-bounce">
           <span className="pointer-events-none my-2 rounded-md p-1 text-xs font-medium bg-green-dark text-beige w-max opacity-0 transition-opacity group-hover:opacity-100">Sunnies!</span>
           <Image src="/sunny.svg" alt="Illustration of a sunflower" height={40} width={50} />
-        </div> 
+        </div>  */}
       </SectionContainer>
       <SectionContainer className="bg-red">
         <SectionHeader overline="Recent work" innerClassName="[&]:space-y-1 [&]:sm:space-y-2" overlineClassName="[&]:text-beige" title="Performances">
