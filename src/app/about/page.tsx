@@ -58,9 +58,9 @@ export default function About() {
           <p>You can also watch me perform with the Colorado Symphony. Tickets are <Link className="underline" href="https://coloradosymphony.org/view-all-events/" >available here</Link>.</p>
         </SectionHeader>
         <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6">
-          <VideoCard className="bg-[url('/concert-2.png')]" title="Sergei Prokofiev Quintet" subtitle="November 2, 2021" href="https://www.youtube.com/watch?v=OhzCHB56C5M" />
-          <VideoCard className="bg-[url('/concert-3.png')]" title="Debussy Petite Piece for Clarinet and Piano" subtitle="July 14, 2018" href="https://www.youtube.com/watch?v=xdgy7Zv2Ttk"/>
-          <VideoCard className="bg-[url('/concert-4.png')]" title="Francis Poulenc Sonata for Clarinet and Piano" subtitle="July 9, 2022" href="https://www.youtube.com/watch?v=y7P0F8wF7mM"/>
+          <VideoCard className="bg-[url('/concert-2.png')]" title="Sergei Prokofiev - Quintet" subtitle="November 2, 2021" href="https://www.youtube.com/watch?v=OhzCHB56C5M" />
+          <VideoCard className="bg-[url('/concert-3.png')]" title="Claude Debussy - Petite Piece" subtitle="July 14, 2018" href="https://www.youtube.com/watch?v=xdgy7Zv2Ttk"/>
+          <VideoCard className="bg-[url('/concert-4.png')]" title="Francis Poulenc - Sonata for clarinet and piano" subtitle="July 9, 2022" href="https://www.youtube.com/watch?v=y7P0F8wF7mM"/>
         </div>
       </SectionContainer>
     </PageContainer>
