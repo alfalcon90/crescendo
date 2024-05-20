@@ -51,7 +51,7 @@ export default async function Home() {
           height={256}
           />
         <SectionHeader
-          overline="Discover your voice"
+          overline="Enhance your voice"
           title="My Approach"
           subtitle="I help musicians and performers overcome performance anxiety, prepare for auditions, and perform more confidently under pressure."
           href={"/faq"}
