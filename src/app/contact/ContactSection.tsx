@@ -10,7 +10,7 @@ export default function ContactSection() {
         <SectionHeader className="[&]:text-start [&]:items-start" innerClassName="[&]:items-start [&]:space-y-1" title="Get in touch"><p className="text-red" >I look forward to hearing from you!</p></SectionHeader>
         <ContactForm />
       </div>
-      <Image className="hidden md:inline w-full" src="/illy-mail.png" alt="" height={200} width={200} />
+      <Image className="hidden md:inline w-full" src="/illy-mail.png" alt="" height={600} width={600} />
     </SectionContainer>
   );
 }
