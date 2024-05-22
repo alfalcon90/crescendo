@@ -26,7 +26,7 @@ export default function About() {
           My journey in music has allowed me the opportunity to collaborate in chamber music performances with many distinguished musicians, such as Yefim Bronfman, Jessye Norman, Michelle DeYoung, Jeremy Denk, and Paquito D’Rivera. As a concerto soloist, I&apos;ve performed with the Colorado Symphony, the Sun Valley Music Festival, the New World Symphony, and the Eastman Philharmonia, among others.
           <br />
           <br />
-          My passion for teaching led me to join the faculty of the University of Northern Colorado and the International Festival-Institute at Round Top. Topics on performance psychology often find their way into my teaching. During my time at Eastman, I also studied piano and enjoy accompanying other musicians whenever possible.
+          My passion for teaching led me to join the faculty of the University of Northern Colorado and the International Festival-Institute at Round Top. Topics on performance psychology often find their way into my teaching. During my time at Eastman, I also studied piano, and I still enjoy accompanying other musicians whenever possible.
         </Paragraph>
         <div className="w-full space-y-2 py-6">
           <Image className="w-full rounded-xl" src="/concert-1.jpg" alt="Photo of Jason Shafer performing with the Colorado Symphony" height={480} width={720}/>

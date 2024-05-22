@@ -10,7 +10,7 @@ export default function FAQ() {
         <SectionHeader
           overline="Help and Support"
           title="Frequently Asked Questions"
-          subtitle="Find quick and comprehensive answers to common questions and concerns about my performance consulting services."
+          subtitle="Find quick answers to common questions and concerns about my performance consulting services."
         />
         <Accordion title="How can performance psychology help me?">
           <p>Working with a mental performance consultant can benefit your performing ability in many ways. The many topics that I cover with clients include:</p>
@@ -28,7 +28,7 @@ export default function FAQ() {
           </ul>
         </Accordion>
         <Accordion title="What does it look like?">
-          <p>We will meet one-on-one in a private setting, either in-person or virtually (Zoom or Skype). Usually meetings are 50 minutes, but this can be adjusted. The frequency of meetings varies based on your needs – it can range anywhere from once a week to once a year! <br/><br/> Some people are satisfied with only one or two sessions total, while others want twenty or more…and that’s all OK!</p>
+          <p>We will meet one-on-one in a private setting, either in-person or virtually (Zoom or Skype). Usually meetings are 50 minutes, but this can be adjusted. The frequency of meetings varies based on your needs – it can range anywhere from once a week to once a year! <br/><br/> Some people are satisfied with only one or two sessions total, while others want twenty or more…and that’s all completely OK. </p>
         </Accordion>
         <Accordion title="Is it confidential?">
           <p>Yes – everything about our sessions is confidential, including even the fact that you are seeing me. Some small ethical exceptions to confidentiality exist, but we will discuss those in our first appointment together. I follow the confidentiality guidelines of the American Psychological Association (APA) and the Association for Applied Sport Psychology (AASP).</p>
