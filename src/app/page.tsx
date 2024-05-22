@@ -23,7 +23,7 @@ export default async function Home() {
             </div>
             <div>
               <Paragraph className="text-center sm:text-start [&]:text-beige">
-                Are you an artist struggling with performance anxiety? Overwhelmed by audition preparation? Are you looking to perform more confidently under pressure?
+                Are you an artist struggling with performance anxiety? Overwhelmed by audition preparation? Looking to perform more confidently under pressure?
               </Paragraph>
             </div>
             <div className="flex justify-center sm:justify-start">
@@ -53,12 +53,12 @@ export default async function Home() {
         <SectionHeader
           overline="Enhance your voice"
           title="My Approach"
-          subtitle="I help musicians and performers overcome performance anxiety, prepare for auditions, and perform more confidently under pressure."
+          subtitle="I help musicians and other performing artists discover the benefits that performance psychology offers. Read on below for more details!"
           href={"/faq"}
         />
         <FeatureItem
-          title="Holistic Development"
-          body="As a mental performance consultant, I use evidence-based concepts of performance psychology to help performing artists overcome barriers: performance anxiety, lack of confidence, Impostor syndrome, audition preparation, injury recovery, and much more!"
+          title="Mental Skills"
+          body="As a mental performance consultant, I use evidence-based concepts of performance psychology to help performing artists overcome barriers: performance anxiety, lack of confidence, impostor syndrome, practice skills, audition preparation, injury recovery, and much more!"
           src="/illy-2.png"
           alt="Abstract illustration of a person"
         />
@@ -88,6 +88,7 @@ export default async function Home() {
         <CarouselWrapper>
           <Testimonial avatar="/avatar-2.png" content="Jason has the unique perspective of someone who walks the walk: he is a highly accomplished performer who has spent significant time on introspection and mental training. He has true empathy and compassion for others, and finds a balance between providing structure and clarity while also being your most stalwart supporter. I cannot recommend him highly enough." description="professional clarinetist" ></Testimonial>
           <Testimonial avatar="/avatar-1.png" content="Working with Jason has been the missing piece for my audition preparation. Taking auditions is usually a solo endeavor but having sessions with Jason made me feel supported throughout the audition process. We set goals to help me not get in the way of myself and see the bigger picture of music making. I highly recommend working with Jason!" description="professional cellist" ></Testimonial>
+          <Testimonial avatar="/avatar-2.png" content="Jason was incredibly helpful to me both due to his resources and strategies for coping with performance anxiety but also for his kind and empathetic nature. In a world where there is little emotional support for navigating these issues, Jason is a gem!" description="professional trumpeter" ></Testimonial>
         </CarouselWrapper>
       </SectionContainer>
       <AboutMe src="/jemmy-1.png" />
