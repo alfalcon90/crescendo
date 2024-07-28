@@ -17,14 +17,14 @@ export default function FAQ() {
           <br/>
           <ul className='list-disc list-inside'>
             <li>performance anxiety</li>
-            <li>confidence and “Impostor syndrome”</li>
+            <li>confidence and “impostor syndrome”</li>
             <li>audition preparation</li>
             <li>practice skills</li>
             <li>motivation</li>
             <li>managing perfectionism</li>
             <li>the psychological side of injury recovery</li>
             <li>career concerns or transitions</li>
-            <li>and much more!</li>
+            ...and much more!</li>
           </ul>
         </Accordion>
         <Accordion title="What does it look like?">
