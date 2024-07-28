@@ -23,7 +23,7 @@ export default async function Home() {
             </div>
             <div>
               <Paragraph className="text-center sm:text-start [&]:text-beige">
-                Are you an artist struggling with performance anxiety? Overwhelmed by audition preparation? Looking to perform more confidently under pressure?
+                Are you an artist struggling with performance anxiety? Overwhelmed by audition preparation? Looking to perform more confidently under pressure? Scroll down to find out more!
               </Paragraph>
             </div>
             <div className="flex justify-center sm:justify-start">
