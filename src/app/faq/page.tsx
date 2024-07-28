@@ -24,7 +24,7 @@ export default function FAQ() {
             <li>managing perfectionism</li>
             <li>the psychological side of injury recovery</li>
             <li>career concerns or transitions</li>
-            ...and much more!</li>
+            <li>...and much more!</li>
           </ul>
         </Accordion>
         <Accordion title="What does it look like?">
