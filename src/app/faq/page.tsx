@@ -8,7 +8,7 @@ export default function FAQ() {
     <PageContainer>
       <SectionContainer className="max-w-4xl space-y-4">
         <SectionHeader
-          overline="Help and Support"
+          overline="How does this work?"
           title="Frequently Asked Questions"
           subtitle="Find quick answers to common questions and concerns about my performance consulting services."
         />

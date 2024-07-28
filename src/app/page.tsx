@@ -72,7 +72,7 @@ export default async function Home() {
         />
         <div className="h-4 sm:h-20" />
          <FeatureItem
-          title="Customized Strategies"
+          title="Flexible Formats"
           body="I see most of my clients one-on-one, but I also offer group sessions and workshops. Musicians are my specialty, but I also enjoy working with other performing artists."
           src="/illy-4.png"
           alt="Abstract illustration of two people talking"
