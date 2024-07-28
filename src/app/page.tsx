@@ -27,7 +27,7 @@ export default async function Home() {
               </Paragraph>
             </div>
             <div className="flex justify-center sm:justify-start">
-              <Button dark trailingIcon={PiArrowRightLight} href={"/contact"}>I can help</Button>  
+              <Button dark trailingIcon={PiArrowRightLight} href={"/faq"}>I can help</Button>  
             </div>
           </div>
           <div className="max-w-[320px] md:max-w-none md:w-[1420px] pointer-events-none">
