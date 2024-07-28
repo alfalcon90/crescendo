@@ -56,7 +56,7 @@ export default function About() {
       </SectionContainer>
       <SectionContainer className="bg-red">
         <SectionHeader overline="Want to hear some music?" innerClassName="[&]:space-y-1 [&]:sm:space-y-2" overlineClassName="[&]:text-beige" title="Performances">
-          <p>You can also watch me perform with the Colorado Symphony. Tickets are <Link className="underline" href="https://coloradosymphony.org/view-all-events/" >available here</Link>.</p>
+          <p>You can also watch me perform every week with the Colorado Symphony. Tickets are <Link className="underline" href="https://coloradosymphony.org/view-all-events/" >available here</Link>.</p>
         </SectionHeader>
         <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6">
           <VideoCard className="bg-[url('/concert-2.png')]" title="Sergei Prokofiev - Quintet" subtitle="November 2, 2021" href="https://www.youtube.com/watch?v=OhzCHB56C5M" />
