@@ -55,7 +55,7 @@ export default function About() {
         </div> 
       </SectionContainer>
       <SectionContainer className="bg-red">
-        <SectionHeader overline="Recent work" innerClassName="[&]:space-y-1 [&]:sm:space-y-2" overlineClassName="[&]:text-beige" title="Performances">
+        <SectionHeader overline="Want to hear some music?" innerClassName="[&]:space-y-1 [&]:sm:space-y-2" overlineClassName="[&]:text-beige" title="Performances">
           <p>You can also watch me perform with the Colorado Symphony. Tickets are <Link className="underline" href="https://coloradosymphony.org/view-all-events/" >available here</Link>.</p>
         </SectionHeader>
         <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6">
