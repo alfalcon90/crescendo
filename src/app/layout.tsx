@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      </head>
       <body
         className={`${inter.className} flex h-screen flex-col items-center bg-green-dark text-green-dark antialiased`}
       >
