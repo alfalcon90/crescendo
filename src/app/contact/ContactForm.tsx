@@ -18,6 +18,8 @@ export default function ContactForm() {
       className="flex w-full flex-col space-y-3 sm:space-y-6"
      action="https://submit-form.com/nI6DI4Ehp"
     >
+      <div class="g-recaptcha" data-sitekey="6LdzPfcrAAAAAD3oUp8kAW3_b7Hkkf5bLg0Cee01"></div>
+        <br/>
       <InputField
         id="name"
         type="text"
