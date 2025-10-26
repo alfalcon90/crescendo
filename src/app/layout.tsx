@@ -17,7 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <!-- 1. Import the @botpoison/browser script -->
 <script src="https://unpkg.com/@botpoison/browser" async></script>
       </head>
       <body
