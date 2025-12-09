@@ -20,7 +20,8 @@ export default function About() {
           I joined the Colorado Symphony as Principal Clarinet at the start of the 2013-2014 season. Prior to that, I spent four years as a fellow with the New World Symphony in Miami Beach, FL. I earned my Bachelor of Music with Highest Distinction from the Eastman School of Music in Rochester, NY. My major musical influences include Kenneth Grant, Mark Nuccio, Burt Hara, and Dr. Kyle Coughlin.
           <br />
           <br />
-          I&apos;ve had the privilege of performing in guest principal roles with the Philadelphia Orchestra and the Cincinnati Symphony. Additionally, I serve as the Principal Clarinet at the Sun Valley Music Festival. Internationally, I&apos;ve performed in Thailand, Mexico, Austria, Estonia, and Russia, and I&apos;m always eager to expand my travel experiences.
+          I&apos;ve had the privilege of performing in guest principal roles with the Philadelphia Orchestra and the Cincinnati Symphony. Additionally, I serve as the Principal Clarinet at the Sun Valley Music Festival. Internationally, I&apos;ve performed in 
+          Thailand, Mexico, Austria, Estonia, and Russia, and I&apos;m always eager to expand my travel experiences.
           <br />
           <br />
           My journey in music has allowed me the opportunity to collaborate in chamber music performances with many distinguished musicians, such as Yefim Bronfman, Jessye Norman, Michelle DeYoung, Jeremy Denk, and Paquito D’Rivera. As a concerto soloist, I&apos;ve performed with the Colorado Symphony, the Sun Valley Music Festival, the New World Symphony, and the Eastman Philharmonia, among others.
