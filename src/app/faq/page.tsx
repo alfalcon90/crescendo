@@ -34,7 +34,7 @@ export default function FAQ() {
           <p>Yes – everything about our sessions is confidential, including even the fact that you are seeing me. Some small ethical exceptions to confidentiality exist, but we will discuss those in our first appointment together. I follow the confidentiality and ethics codes of the American Psychological Association (APA) and the Association for Applied Sport Psychology (AASP).</p>
         </Accordion>
         <Accordion title="Is this therapy?">
-          <p>No – performance consulting is not therapy. I do have a theoretical counseling orientation that guides my work, and we might draw from a few different techniques that are associated with different therapy approaches if it's appropriate, but I am not a therapist. However, I may refer you to a therapist for mental health concerns as appropriate - even in this case, I can still see you for performance consulting if you are also seeing a therapist at the same time!</p>
+          <p>No – performance consulting is not therapy. I do have a theoretical counseling orientation that guides my work, and we might draw from a few different techniques that are associated with different therapy approaches if it&apos;s appropriate, but I am not a therapist. However, I may refer you to a therapist for mental health concerns as appropriate - even in this case, I can still see you for performance consulting if you are also seeing a therapist at the same time!</p>
         </Accordion>
         <Accordion title="Do you work with groups?">
           <p>Yes! Contact me and we can discuss if group consulting is the right fit for your organization or ensemble.</p>
