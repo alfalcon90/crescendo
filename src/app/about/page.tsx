@@ -38,16 +38,19 @@ export default function About() {
         </div>
         <Heading3 className="w-full">My work as a performance consultant</Heading3>
         <Paragraph>
-          I successfully completed my Master&apos;s degree in Performance Psychology in 2024, with a notable distinction and a GPA of 4.0. Currently, I am in the advanced stages of obtaining my certification as a Certified Mental Performance Consultant (CMPC), a qualification offered by the Association for Applied Sport Psychology (AASP).
+          I successfully completed my Master&apos;s degree in Performance Psychology in 2024, with GPA of 4.0 and honors distinction. After this, I obtained official designation as a Certified Mental Performance Consultant (CMPC), a qualification offered by the Association for Applied Sport Psychology. AASP describes the certification as follows: "Certified Mental Performance Consultants recognized by the Association of Applied Sport Psychology are the most
+capable sport and performance psychology providers. They have met the highest standard in education, training, and
+supervised practice, and they have passed a required certification exam to demonstrate their competence as a practitioner.
+CMPCs also are governed by and committed to high standards of ethical conduct when providing services to the public." You can find out more about CMPCs here: https://appliedsportpsych.org/site/assets/files/1016/cmpc-onepage.pdf"
           <br />
           <br />
           I have worked with individual and group clients from around the world. Although I specialize in working with musicians, I have also enjoyed my work with dancers, actors, and athletes. In addition, I have the privilege of teaching &quot;Performance Psychology&quot; courses at two institutions: the University of Northern Colorado and the University of Denver&apos;s Lamont School of Music.
           <br />
           <br />
-          Over the years, I&apos;ve had the opportunity to conduct a range of workshops centered around the theme of performance psychology for a variety of organizations. To name a few examples, I&apos;ve led sessions at the International Festival-Institute at Round Top, collaborated with <Link className="underline" href="https://bulletproofmusician.com/" >Dr. Noa Kageyama</Link> on multiple projects, presented at the International Clarinet Association, and worked with several other universities and music schools across the United States.
+          Over the years, I&apos;ve had the opportunity to conduct a range of workshops centered around the theme of performance psychology for a variety of organizations. To name a few examples, I&apos;ve led sessions at the International Festival-Institute at Round Top, collaborated with <Link className="underline" href="https://bulletproofmusician.com/" >Dr. Noa Kageyama</Link> on multiple projects (including at Juilliard), presented at the International Clarinet Association, and worked with several other universities and music schools across the United States.
           <br />
           <br />
-          To give you a deeper understanding of my work and my approach to performance psychology, I would recommend listening to a <Link className="underline" href="https://bulletproofmusician.com/jason-shafer-on-healthier-practicing-strengths-based-performing/" >recent interview</Link> I had the pleasure of doing with Dr. Noa Kageyama, who is one of my most respected colleagues in this field.
+          To give you a deeper understanding of my work and my approach to performance psychology, I invite you to listen to a <Link className="underline" href="https://bulletproofmusician.com/jason-shafer-on-healthier-practicing-strengths-based-performing/" >recent interview</Link> I had the pleasure of doing with Dr. Noa Kageyama, who is one of my most respected colleagues in this field.
         </Paragraph>
         <div className="group absolute lg:inline hidden flex flex-col items-center -bottom-[2px] -right-[56px] hover:animate-bounce">
           <span className="pointer-events-none rounded-md p-1 text-xs font-medium bg-green-dark text-beige w-max opacity-0 transition-opacity group-hover:opacity-100">Sunnies!</span>
