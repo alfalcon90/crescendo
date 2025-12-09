@@ -28,13 +28,13 @@ export default function FAQ() {
           </ul>
         </Accordion>
         <Accordion title="What does it look like?">
-          <p>We will meet one-on-one in a private setting, either in-person or virtually (Zoom or Google Meet). Usually meetings are 50 minutes, but this can be adjusted. The frequency of meetings varies based on your needs – it can range anywhere from once a week to once a year! <br/><br/> Some people are satisfied with only one or two sessions total, while others want twenty or more…and that’s all completely OK. </p>
+          <p>We will meet one-on-one in a private setting, either in-person or virtually (Zoom or Google Meet). Usually meetings are 50 minutes, but this can be adjusted. The frequency of meetings varies based on your needs – it can range anywhere from once a week to once a year! <br/><br/> Some people are satisfied with only one or two sessions total, while others want twenty or more…and that’s all completely OK.</p>
         </Accordion>
         <Accordion title="Is it confidential?">
           <p>Yes – everything about our sessions is confidential, including even the fact that you are seeing me. Some small ethical exceptions to confidentiality exist, but we will discuss those in our first appointment together. I follow the confidentiality and ethics codes of the American Psychological Association (APA) and the Association for Applied Sport Psychology (AASP).</p>
         </Accordion>
         <Accordion title="Is this therapy?">
-          <p>No – performance consulting is not therapy. I do have a theoretical counseling orientation for my work with my clients, and we might draw from a few different techniques that are associated with different therapy approaches if it's appropriate, but I am not a therapist. However, I may refer you to a therapist for mental health concerns as appropriate - even in this case, I can still see you for performance consulting if you are also seeing a therapist at the same time!</p>
+          <p>No – performance consulting is not therapy. I do have a theoretical counseling orientation that guides my work, and we might draw from a few different techniques that are associated with different therapy approaches if it's appropriate, but I am not a therapist. However, I may refer you to a therapist for mental health concerns as appropriate - even in this case, I can still see you for performance consulting if you are also seeing a therapist at the same time!</p>
         </Accordion>
         <Accordion title="Do you work with groups?">
           <p>Yes! Contact me and we can discuss if group consulting is the right fit for your organization or ensemble.</p>
