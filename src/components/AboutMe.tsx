@@ -24,8 +24,8 @@ export default function AboutMe({
                 loading="eager"
             />
           </div>
-          <SectionHeader dark className="[&]:text-start lg:[&]:items-start" innerClassName="lg:[&]:items-start [&]:space-y-8" overline="About me" title="Jason Shafer" href={showBtn ? "/about" : undefined} subtitle="I am a professional orchestral musician. With over a decade of experience as the full-time Principal Clarinetist of the Colorado Symphony, I deeply understand the stress we face as performing artists.
-          I love teaching – I’m a university music professor, too. When I kept bumping into performance psychology both as a performer and teacher, I decided to follow this passion. Now, with a master’s degree in performance psychology, I’m nearing final certification as a Certified Mental Performance Consultant (CMPC) through the Association for Applied Sport Psychology (AASP)." ></SectionHeader>
+          <SectionHeader dark className="[&]:text-start lg:[&]:items-start" innerClassName="lg:[&]:items-start [&]:space-y-8" overline="About me" title="Jason Shafer, CMPC" href={showBtn ? "/about" : undefined} subtitle="I am a professional orchestral musician. With over a decade of experience as the full-time Principal Clarinetist of the Colorado Symphony, I deeply understand the stress we face as performing artists.
+          I love teaching – I’m a university music professor, too. When I kept bumping into performance psychology both as a performer and teacher, I decided to follow this passion. Now, I am a Certified Mental Performance Consultant (CMPC) through the Association of Applied Sport Psychology. To earn the CMPC certification, I had to get a master's degree in performance psychology, complete a 400-hour mentored experience working with clients, and pass a national examination. Please continue to explore my website to find out more about what I can offer!" ></SectionHeader>
         </div>
     </SectionContainer>
   );
